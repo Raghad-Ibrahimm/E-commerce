@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.active{
+    color:#EC003F;
+}
+
+
+ @media screen  and ( max-width:444px){
+    .my-m{
+        position: absolute;
+        right: 0;
+    }
+}

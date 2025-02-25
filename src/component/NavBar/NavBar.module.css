@@ -1,0 +1,7 @@
+@media screen  and ( max-width:444px){
+    .my-m{
+        position: absolute;
+        right: 0;
+    }
+}
+
