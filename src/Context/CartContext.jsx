@@ -19,6 +19,10 @@ export default function CartContextProvider({children}) {
     
     const {token} = useContext(tokenContaxt)
 
+
+// https://e-commerce-ashen-mu.vercel.app
+
+const LiveDemo =`https://e-commerce-ashen-mu.vercel.app`
 const API_URL_cart =`https://ecommerce.routemisr.com/api/v1/cart`
 const API_URL_order =`https://ecommerce.routemisr.com/api/v1/orders`
 const headers ={
@@ -78,7 +82,7 @@ useEffect(()=>{
 
 async function onLinePayment(shippingAddress) {
 
-return await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=http://localhost:5174`,{
+return await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=${LiveDemo}/`,{
     shippingAddress
    },{headers})
 .then((res)=>res)
