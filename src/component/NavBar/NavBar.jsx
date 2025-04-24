@@ -42,7 +42,7 @@ let navigate = useNavigate()
     <div>
     <NavLink to={"home"} className="flex items-center space-x-3 rtl:space-x-reverse">
     <i className="fa-solid fa-cart-shopping text-white fa-2xl fa-fade"></i>
-        <span className="self-center text-white text-2xl font-semibold whitespace-nowrap dark:text-white">FreashCart</span>
+        <span className="self-center text-white text-2xl font-semibold whitespace-nowrap dark:text-white">R&A Store</span>
     </NavLink>
     </div>
 <div> 
